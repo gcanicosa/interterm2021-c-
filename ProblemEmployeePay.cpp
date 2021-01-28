@@ -10,8 +10,8 @@ int main() {
   double federalIncomeTax; //taken from gross pay
   double stateIncomeTax; //taken from gross pay
   double netTakeHomePay; // for the week
-  int RATE_OF_PAY = 16; //standard hourly pay
-  int HEALTH_INSURANCE = 10;
+  const int RATE_OF_PAY = 16; //standard hourly pay
+  const int HEALTH_INSURANCE = 10;
 
 
   cout << "How many hours do you work per week? ";
